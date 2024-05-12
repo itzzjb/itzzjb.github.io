@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['', ''], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -42,7 +42,7 @@ const CONFIG = {
         {
           title: 'Spring-boot E-commerce Website Backend',
           description:
-            'This is a E-Commerce Website backend created using Spring-boot REST API , JPA / Postgresql database, JWT authentication and Gmail SMTP.',
+            'This is an E-Commerce Website backend created using Spring-boot REST API , JPA / Postgresql database, JWT authentication and Gmail SMTP.',
           imageUrl:
             'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHT0YwFEvHqGYCpPStMRKzY13LyosWA-QwdBIdIXgQVg&s',
           link: 'https://github.com/itzzjb/springboot-ecommerce-backend',
@@ -59,7 +59,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Januda Bethmin | Portfolio',
     description: '',
     imageURL: '',
   },
