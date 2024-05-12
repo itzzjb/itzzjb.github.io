@@ -19,7 +19,7 @@ const CONFIG = {
         sortBy: 'updated', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
+          forks: true, // Forked projects will not be displayed if set to true.
           projects: ['itzzjb/itzzjb', 'itzzjb/itzzjb.github.io'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
@@ -65,9 +65,9 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'janudabethmin',
+    twitter: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -77,57 +77,66 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: 'desilvabethmin',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    website: 'januda.live',
+    phone: '+94777772229',
+    email: 'desilvabethmin@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1m7fcrvQOF-iU921Hta48IOUiEew5r8x3/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
+    'Spring boot',
+    'Java',
+    'Postgres',
+    'MySQL',
+    'Python',
+    'Git',
+    'Mongodb',
+    'Express.js',
     'React.js',
     'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Github Actions',
+    'Github Actions',
+    'AWS',
+    'TypeScript',
+    'JavaScript',
+    'PHP',
   ],
-  experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
-  ],
+  // experiences: [
+  //   {
+  //     company: 'Company Name',
+  //     position: 'Position',
+  //     from: 'September 2021',
+  //     to: 'Present',
+  //     companyLink: 'https://example.com',
+  //   },
+  //   {
+  //     company: 'Company Name',
+  //     position: 'Position',
+  //     from: 'July 2019',
+  //     to: 'August 2021',
+  //     companyLink: 'https://example.com',
+  //   },
+  // ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Career Essentials in Github Professional Certificate',
+      body: '',
+      year: 'May 2024',
+      link: 'https://www.linkedin.com/learning/certificates/602b0b6d85ac0f09d6d2ccf4bffbb8c27cf3bc45b306553624b4d9f9cf28619d',
+    },
+    {
+      name: 'AWS Technical Essentials',
+      body: '',
+      year: 'April 2024',
+      link: 'https://www.coursera.org/account/accomplishments/verify/ZA2C5CYPJCLK',
     },
   ],
   educations: [
@@ -142,6 +151,18 @@ const CONFIG = {
       degree: 'Diploma in Software Engineering',
       from: '2021',
       to: '2022',
+    },
+    {
+      institution: 'Royal College, Colombo 07',
+      degree: 'Advanced Level - Phycial Science Stream',
+      from: '2018',
+      to: '2020',
+    },
+    {
+      institution: 'St. Benedicts College, Colombo 13',
+      degree: 'Odinary Level',
+      from: '2007',
+      to: '2017',
     },
   ],
   // publications: [
@@ -166,8 +187,8 @@ const CONFIG = {
   // ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: 'desilvabethmin', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -179,7 +200,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'winter',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
