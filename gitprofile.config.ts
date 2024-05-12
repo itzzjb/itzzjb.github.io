@@ -13,7 +13,7 @@ const CONFIG = {
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: 'Recent Github Projects',
+      header: 'Recent Github Repositories',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'updated', // Sort projects by 'stars' or 'updated'
@@ -33,28 +33,27 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+          title: 'Mern Fullstack Notes Application',
+          description: 'In development ...',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj-aXWWJ4sm2jdZ3FHT2GdEcyoJQKI9bQTjns0t7wPIA&s',
+          link: 'https://github.com/itzzjb/mern-fullstack-notes-app',
         },
         {
-          title: 'Project Name',
+          title: 'Spring-boot E-commerce Website Backend',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'This is a E-Commerce Website backend created using Spring-boot REST API , JPA / Postgresql database, JWT authentication and Gmail SMTP.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHT0YwFEvHqGYCpPStMRKzY13LyosWA-QwdBIdIXgQVg&s',
+          link: 'https://github.com/itzzjb/springboot-ecommerce-backend',
         },
         {
-          title: 'Project Name',
+          title: 'Menverse E-commerce Website',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'This is an Ecommerce Website created using PHP, MySQL and basic Java Script. No frameworks and libraries have been used here.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://static-00.iconduck.com/assets.00/php-icon-256x256-oq5bc0bt.png',
+          link: 'https://github.com/itzzjb/menverse-ecommerce-website',
         },
       ],
     },
@@ -91,7 +90,7 @@ const CONFIG = {
       'https://drive.google.com/file/d/1m7fcrvQOF-iU921Hta48IOUiEew5r8x3/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'Spring boot',
+    'Spring-boot',
     'Java',
     'Postgres',
     'MySQL',
@@ -263,11 +262,11 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  // footer: `Made with <a
+  //     class="text-primary" href="https://github.com/arifszn/gitprofile"
+  //     target="_blank"
+  //     rel="noreferrer"
+  //   >GitProfile</a> and ❤️`,
 
   enablePWA: true,
 };
