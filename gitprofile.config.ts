@@ -126,16 +126,22 @@ const CONFIG = {
   // ],
   certifications: [
     {
-      name: 'Career Essentials in Github Professional Certificate',
+      name: 'Github Foundations',
       body: '',
       year: 'May 2024',
-      link: 'https://www.linkedin.com/learning/certificates/602b0b6d85ac0f09d6d2ccf4bffbb8c27cf3bc45b306553624b4d9f9cf28619d',
+      link: 'https://www.credly.com/badges/5ed0eafc-5c19-464b-9d2f-ca854e36e1b7/linked_in_profile',
     },
     {
       name: 'AWS Technical Essentials',
       body: '',
       year: 'April 2024',
       link: 'https://www.coursera.org/account/accomplishments/verify/ZA2C5CYPJCLK',
+    },
+    {
+      name: 'Career Essentials in Github Professional Certificate',
+      body: '',
+      year: 'April 2024',
+      link: 'https://www.linkedin.com/learning/certificates/602b0b6d85ac0f09d6d2ccf4bffbb8c27cf3bc45b306553624b4d9f9cf28619d',
     },
   ],
   educations: [
