@@ -194,7 +194,7 @@ const CONFIG = {
   blog: {
     source: 'medium', // medium | dev
     username: 'desilvabethmin', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    limit: 10, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -205,7 +205,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'dracula',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
