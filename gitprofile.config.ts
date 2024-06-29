@@ -87,7 +87,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1jIUGIqgoRn8evnCXwD5cW6h1dM4pAKHZ/view', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1lvjrR9WgKCpiYVAwuoCfRkXlyq8vGR0s/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Spring-boot',
